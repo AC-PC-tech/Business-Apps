@@ -78,7 +78,7 @@ const form = document.getElementById('transaction-form');
 
         const deleteBtn = document.createElement('button');
         deleteBtn.className = 'delete-btn';
-        deleteBtn.textContent = '✕';
+        deleteBtn.textContent = 'X';
         deleteBtn.title = 'Delete';
         deleteBtn.addEventListener('click', () => deleteTransaction(tx.id));
 
